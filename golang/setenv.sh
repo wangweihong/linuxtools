@@ -17,5 +17,5 @@ mkdir -p $GOPATH/pkg
 echo "export GOROOT=\"$GOROOT\"" >> $bashrc
 echo "export GOPATH=\"$GOPATH\"" >> $bashrc
 echo "export GOBIN=\"$GOBIN\"" >> $bashrc
-echo 'export PATH="$PATH:$GOPATH:$GOROOT/bin"' >> $bashrc
+echo 'export PATH="$PATH:$GOPATH:$GOROOT/bin:$GOBIN"' >> $bashrc
 
