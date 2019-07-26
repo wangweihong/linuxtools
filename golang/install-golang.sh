@@ -18,3 +18,4 @@ wget https://dl.google.com/go/$targz
 tar -xvzf $targz -C /tmp
 cp -rf /tmp/go/* $GOROOT/
 go version
+rm $targz
